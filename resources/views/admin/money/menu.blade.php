@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+@extends('layouts.admin')
 
-        <title>MoneyAdmin</title>
-    </head>
-    <body>
-        <h1>メニュー画面</h1>
-    </body>
-</html>
+@section('title','家計簿メニュー')
+
+@section('content')
+    <div class="container">
+        <button type="button" class="btn btn-danger"><a href="#" class="text-decoration-none text-white">収支入力</a></button>
+        <br>
+        <button type="button" class="btn btn-primary"><a href="#" class="text-decoration-none text-white">収支管理</a></button>
+    </div>
+@endsection

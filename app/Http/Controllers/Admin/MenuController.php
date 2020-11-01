@@ -9,6 +9,6 @@ class MenuController extends Controller
 {
     public function add()
     {
-        return view('admin.money.nemu');
+        return view('admin.money.menu');
     }
 }
